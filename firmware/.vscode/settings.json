@@ -1,0 +1,17 @@
+{
+    "idf.currentSetup": "/home/aluno/.espressif/v6.1/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "clangd.path": "/home/aluno/.espressif/tools/tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin/clangd",
+    "clangd.arguments": [
+      "--background-index",
+      "--query-driver=**",
+      "--compile-commands-dir=/home/aluno/PET/Lucas_L_Costa/Pesquisa/visao/FUT-ROBO/firmware/build"
+    ],
+    "idf.flashType": "UART",
+    "idf.port": "/dev/ttyACM0"
+}

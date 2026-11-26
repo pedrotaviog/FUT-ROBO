@@ -1,0 +1,29 @@
+%YAML:1.0
+---
+color:
+    hue_tol: 5
+    sat_tol: 75
+    rectMinArea: 200.0
+    circleMinArea: 5.0
+    ballMinArea: 15.0
+    ballMinCircularity: 0.65
+    ballMaxRadius: 0.0
+    roiWidth: 60
+    roiHeight: 60
+
+camera:
+    id: 0
+    width: 1280
+    height: 720
+    fps: 30
+
+window:
+    name: window
+    delay: 34
+
+# Tamanho real do campo em cm. sizeX_cm e o lado entre o 1o e o 2o canto
+# clicados na calibracao; sizeY_cm, entre o 2o e o 3o. Mudou o campo? Edite
+# aqui, sem precisar clicar de novo. Mexeu na camera? Recalibre (--calibrar).
+field:
+    sizeX_cm: 237.0
+    sizeY_cm: 165.0
