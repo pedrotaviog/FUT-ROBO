@@ -44,7 +44,7 @@
 #define HOST_IP_ADDR ""
 #endif
 
-#define PORT CONFIG_EXAMPLE_PORT
+#define PORT 3334
 
 // --- HARDWARE DEFINITIONS & KINEMATICS ---
 #define IN1 4
@@ -307,7 +307,7 @@ esp_err_t start_mdns_service()
     }
 
     //set hostname
-    return mdns_hostname_set("robot");
+    return mdns_hostname_set("botafogo");
 }
 
 // void run_test(void *pvParameters) {

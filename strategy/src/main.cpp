@@ -20,8 +20,8 @@
 constexpr char MULTICAST_ADDRESS[] = "224.1.1.1";
 constexpr int  MULTICAST_PORT      = 5007;
 
-constexpr char TARGET_HOSTNAME[] = "robot.local";
-constexpr int  UNICAST_PORT      = 3333;
+constexpr char TARGET_HOSTNAME[] = "botafogo.local";
+constexpr int  UNICAST_PORT      = 3334;
 
 
 // Devem ser iguais ao TRACK_WIDTH e ao último ponto de CAL_SPEED do firmware

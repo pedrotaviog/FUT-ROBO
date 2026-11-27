@@ -1,6 +1,6 @@
 {
     "cmake.sourceDirectory": "/home/grupo-pet/Documents/FUT-ROBO/firmware",
-    "idf.currentSetup": "/home/aluno/.espressif/v6.1/esp-idf",
+    "idf.currentSetup": "C:/Espressif/frameworks/esp-idf-v5.5/",
     "idf.openOcdConfigs": [
         "board/esp32s3-builtin.cfg"
     ],
